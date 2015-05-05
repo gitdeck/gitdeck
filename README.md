@@ -27,13 +27,13 @@ GitDeck parser. In the example below, we have arranged it so that the `"intro"` 
 {
   "title": "How to Build a Website",
   "author": "John Smith",
-  "slides": [{
+  "slides": {
     "intro": {
       "title": "Where To Start",
       "paragraph": "This is the first paragraph",
       "paragraph": "This is the second paragraph"
     }
-  }]
+  }
 }
 ```
 
