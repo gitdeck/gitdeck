@@ -4,13 +4,8 @@ GitDeck Template Development
 GitDeck has a large database of ready templates for you to use in your decks. However, making
 your own is a very easy process.
 
-- Create a file called `[template-name].template.ejs` somewhere in the world
-- Make sure the template is wrapped in a `div` with the class `slide` like so:
-```html
-<div class="slide">
-    <!-- your template code -->
-</div>
-```
+- Create a file called `[template-name].template.ejs` somewhere in the world.
+- Make sure the template is wrapped in a `div` with the class `slide`.
 - Use standard EJS syntax to include the slide contents into your template.
 
 A Simple Example
@@ -31,6 +26,7 @@ two slides with `h1` elements corresponding to the `title` fields defined in the
 {
   "title": "How to Build a Website",
   "author": "John Smith",
+  "template": "path/to/template",
   "slides": {
     "intro": {
       "title": "Where To Start"
@@ -64,6 +60,7 @@ an array of paragraphs.
 {
   "title": "How to Build a Website",
   "author": "John Smith",
+  "template": "path/to/template",
   "slides": {
     "intro": {
       "title": "Where To Start",
