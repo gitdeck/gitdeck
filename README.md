@@ -33,13 +33,13 @@ then GitDeck uses the "Default" template which defines the "title" and "paragrap
 {
   "title": "How to Build a Website",
   "author": "John Smith",
-  "slides": {
+  "slides": [{
     "intro": {
       "title": "Where To Start",
       "paragraph": "This is the first paragraph",
       "paragraph": "This is the second paragraph"
-    },
-  }
+    }
+  }]
 }
 ```
 
